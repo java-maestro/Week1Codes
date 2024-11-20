@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Document website</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./day2.css">
+
+    <style>
+      h3{
+        color: blueviolet;
+      } 
+      h1{
+        color: brown;
+        background-color: chocolate;
+      }
+
+      #selectors_heading{
+        color: brown;
+      }
+    </style>
+</head>
+<body>
+    <h1 style="color: aquamarine;" >Cascading Style Sheets - CSS</h1>
+    <h2>Key - value pairs Ex: color : red</h2>
+    
+    <h3 id="heading_1">Css can be included in three locations</h3>
+    <ol>
+        <li>In HTML Element </li>
+        <li> In HEAD HTML Element by creating STYLE Tag</li>
+        <li> In Separate CSS File and Add the reference in HTML</li>
+    </ol>
+
+     <h3 id="selectors_heading" >Different Types of Selectors</h3>
+    <ol  >
+      <li>Selecting an element using Tag names.  Ex: h1, h2, p, span, div, li ... etc  </li>
+      <li>Id selector #  </li>
+      <li>Class selector .</li>
+      <li>Attribute Selector [attributeName= "attributeValue"]</li>
+      <li>Universal Selector  * </li>
+      <li>Group selector </li>
+      <li>Child Selector (>)</li>
+      <li>Descendent selector (space)</li>
+      <li>Adjacent Sibling selector (+)</li>
+      <li>Sibling Selector (~)</li>
+
+    </ol>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sapiente inventore natus officiis officia. Optio id assumenda et. Totam vel hic sed beatae odit iste deleniti in architecto modi dignissimos!</p>
+    <p id="para2" class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iusto rerum voluptates cumque molestias asperiores officia assumenda delectus incidunt vel a magni, necessitatibus, neque, repudiandae dolores quasi quas culpa dolorem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus deserunt repellendus facilis nisi dolor cum reiciendis. Aliquam, nisi. Aut dignissimos debitis voluptate quis nulla deleniti praesentium cum tempora aliquid.</p>
+    <input type="text">
+    <input type="radio">
+    <input type="checkbox">
+    <input type="submit">
+
+    <div id="section1">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reiciendis et, deleniti ex cumque culpa nesciunt, autem odit natus a explicabo sequi consequuntur commodi assumenda rem quod quia minus reprehenderit!</p>
+     <p id="para4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dicta, atque voluptatum autem incidunt fugit cupiditate assumenda cumque aliquam sunt, eveniet architecto qui tempore debitis libero repellat? Adipisci, alias quia?</p>
+     <p>para 5</p>
+     <p>par6</p>
+    </div>
+
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A distinctio voluptates quae tempore libero voluptas rem reiciendis facilis dolor minus suscipit officia, alias, harum nam, atque ullam ad culpa asperiores.</p>
+    </div>
+
+
+    <div id="selection2">
+      <div>
+        <div>
+          <h3>this is a Descendent Element 1</h3>
+          <div>
+            <h3>this is a Descendent Element 2</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <p> para</p>
+      <p id="para6" > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ullam sed animi labore sequi, delectus eos eaque, possimus deserunt, aspernatur fugiat corporis ad quas voluptatem quia cupiditate non! Reiciendis, voluptates?</p>
+      <p> para</p>
+      <p> para</p>
+      <p id="para10"> para</p>
+      <p> para</p>
+      <p> para</p>
+      <div>
+        <p> para </p>
+        <p> para</p>
+      </div>
+      <p> para</p>
+      <p> para</p>
+    </div>
+
+</body>
+</html>

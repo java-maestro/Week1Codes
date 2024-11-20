@@ -1,0 +1,14 @@
+{
+    "firstname":"adams",
+    "lastname":"something",
+    "email":"adams@gmail.com",
+    "fev_color":"blue",
+    "courses":"HTML,CSS,JAVA",
+    "day":"Mon"
+}
+
+
+selector {
+
+    key : value;
+}

@@ -1,0 +1,57 @@
+
+
+
+p{
+    background-color: blueviolet;
+}
+
+
+.para1{
+    color: white;
+}
+/* h2{
+    color: red;
+} */
+/* #para2{
+    color: red;
+} */
+
+h2, #para2{
+    color: red;
+}
+
+[type="text"]{
+    border : 2px solid red;
+}
+
+input{
+    border : 2px solid green; 
+}
+
+*{
+    background-color: darkgoldenrod;
+}
+
+#section1 > p {
+
+    background-color: white;
+    color: black;
+}
+
+#selection2 h3{
+
+    color: mediumaquamarine;
+}
+
+#para4 + p{
+
+    background-color: chartreuse;
+}
+
+#para6 ~ p{
+    background-color: blanchedalmond;
+}
+
+#para10 ~ p{
+    background-color: green;
+}

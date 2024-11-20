@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- CTRL/CMD + /  =to create a comment -->
+<!-- <tagName>   => opening tag -->
+<!-- </tagName>  =>  closing tag -->
+<!-- HTML Element -->
+<!-- <tagName>  content </tagName> -->
+<html>
+  <head>
+    <title>My second website</title>
+  </head>
+
+  <body>
+    <h1 id="heading1" class="heading" style="">
+      HTML -> Hyper Text Markup Language
+    </h1>
+    <h2 class="heading">HTML -> Hyper Text Markup Language</h2>
+    <h3 class="heading">heading -3</h3>
+    <h4 class="heading">heading -4</h4>
+    <h5 class="heading">heading -5</h5>
+    <h6 class="heading">heading -6</h6>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+      cupiditate quidem dolorum deleniti aliquid, corporis perferendis expedita
+      pariatur iure soluta enim similique cumque id assumenda? Odio quo
+      quibusdam omnis! Alias?
+    </p>
+
+    <h1>Id is unique</h1>
+    <h1>Class can have duplicates</h1>
+    <h1>Style Attribute</h1>
+    <p>
+      Lorem ipsum dolor sit amet <b>consectetur</b>, <i>adipisicing</i> elit.
+      <del>Numquam</del> est cumque suscipit in praesentium culpa minima, omnis
+      aperiam exercitationem consequatur. Veniam qui dolore minima, id sunt
+      asperiores dignissimos debitis quod.
+    </p>
+    <a href="http://google.com" target="_blank">google</a>
+
+    <h2>UnOrdered List</h2>
+    <ul>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Bananna</li>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol>
+      <li>blue</li>
+      <li>red</li>
+      <li>green</li>
+    </ol>
+    <h2>How to add images to website ?</h2>
+    <!-- Self closing elements -->
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+      width="200"
+      height="200"
+    />
+    <img src="./images.png" width="200" height="200" />
+    <table>
+      <caption>
+        This is My Html Web table
+      </caption>
+      <tr>
+        <th style="border: 1px solid black">S.No</th>
+        <th style="border: 1px solid black">First name</th>
+        <th style="border: 1px solid black">Last name</th>
+        <th style="border: 1px solid black">Phone number</th>
+        <th style="border: 1px solid black">City</th>
+        <th style="border: 1px solid black">Links</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Adams</td>
+        <td>M</td>
+        <td>+1 5712561234</td>
+        <td>Sterling</td>
+        <td>
+          <a
+            href="https://www.mapquest.com/directions/to/us/virginia/sterling-va-282040715"
+            target="_blank"
+            >Get Directions</a
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Mark</td>
+        <td>RR</td>
+        <td>+1 7324560987</td>
+        <td>Fairfax</td>
+        <td>
+          <a
+            href="https://www.mapquest.com/directions/to/us/virginia/sterling-va-282040715"
+            target="_blank"
+            >Get Directions</a
+          >
+        </td>
+      </tr>
+    </table>
+
+    <h2>How to show videos on Website ?</h2>
+    <video
+      src="https://marketplace.canva.com/EAGJ-XdNWWc/1/document_225w/canva-yellow%2C-black-and-white-minimalist-animated-business-advertising-mobile-video-N4igcsi2VBs.mp4"
+      width="300"
+      height="200"
+      autoplay
+      controls
+    ></video>
+    <p>Lorem ipsum dolor p1</p>
+    <p>Lorem ipsum dolor p2</p>
+    <span>Lorem, ipsum dolor span1</span>
+    <span>Lorem, ipsum dolor span2</span>
+    <h1>div element</h1>
+
+    <form action="">
+      <label for="firstName">First name: </label>
+      <input type="text" id="firstName" required placeholder="adams" maxlength="30" />
+      <br />
+      <label>Last name: </label>
+      <input type="text" />
+      <br />
+      <label>Email </label>
+      <input type="email" />
+      <br />
+
+      <label>Select your Fev Color: </label>
+      <input type="radio" id="blue" name="fev_color" value="BLUE" />
+      <label for="blue">Blue</label>
+      <input type="radio" id="red" name="fev_color" value="RED" />
+      <label for="red">Red</label>
+      <input type="radio" id="green" name="fev_color" value="GREEN" />
+      <label for="green">Green</label>
+
+      <br />
+      <label>Select courses that you like: </label>
+      <label for="html">HTML</label>
+      <input type="checkbox" id="html" value="HTML" />
+      <label for="css">CSS</label>
+      <input type="checkbox" id="css" value="CSS" />
+      <br />
+
+      <label> Select a Day</label>
+      <select name="day">
+        <option value="Mon">Mon</option>
+        <option value="2">Tus</option>
+        <option value="3">Web</option>
+        <option value="4">Ths</option>
+        <option value="5">Fri</option>
+        <option value="6">Sat</option>
+        <option value="7">Sun</option>
+      </select>
+      <br />
+      <label for="date">Select a Date</label>
+      <input type="date" id="date" />
+
+      <br />
+      <label for="fileupload">Upload a file</label>
+      <input type="file" id="fileupload" />
+      <br />
+      <label>Enter your password</label>
+      <input type="password"/>
+      <br />
+      <input type="submit" />
+    </form>
+
+    <button>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
+        >Click me to get Docs</a
+      >
+    </button>
+  </body>
+</html>
