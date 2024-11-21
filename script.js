@@ -60,9 +60,12 @@ console.log(result2);
 
 var firstName = "Adams";
 var lastName  = "Morgan";
+var email = "abc@email.com";
 
 var fullName  = firstName + " "+ lastName;
 // print the full name
 console.log(fullName);
 
+console.log("Your Full name is "+ fullName);
+console.log("Your Email is "+ email);
 
