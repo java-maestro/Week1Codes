@@ -237,6 +237,16 @@ if (actualArrivalTime === dinnerTime) {
 
 let traficLight = "RED";
 
+if(traficLight == "RED"){
+    //code
+}else if(traficLight == "GREEN"){
+
+}else if(traficLight == "YELLLOW"){
+
+}else{
+    
+}
+
 // ------------------------------------------------------------------------------------
 // check if given number is even or odd, if its even then check its divisible by 5,
 //                            if its odd then check its divisible by 3
@@ -261,3 +271,5 @@ if (number10 % 2 == 0) {
 // x variable,  if its divisible by 3 than print "Fizz"
 //              if its divisible by 5 than print "Buzz"
 //              if its divisible by 3 and 5 than print "FizzBuzz"
+
+
